@@ -1,0 +1,55 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+   background-color: darkgray;
+}
+header {
+    background-color:  rgb(148, 148, 148);
+    margin: 20px; 
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.253);
+    font-size: 1.3em;
+}
+
+header > h1 {
+    color: rgb(2, 2, 63);
+    font-size: 1.5em;
+    padding: 2px;
+    margin: 5px;
+    text-align: center;
+    
+}
+
+header > p {
+    color: rgba(255, 255, 255, 0.603);
+    font-size: 1.2em;
+    padding: 2px;
+    margin: 5px;
+    text-align: center;
+}
+
+main > article > p {
+    font-size: 1.2em;
+}
+
+footer {
+    background-color: rgb(148, 148, 148);
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    color: darkblue;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+footer > a {
+    text-decoration: none;
+    color:black;
+}
+
+footer > a:hover {
+    text-decoration: underline;
+    color: red;
+}
