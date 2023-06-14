@@ -1,0 +1,49 @@
+/* gerai */
+body {
+    font-family: 'roboto' sans-serif;
+
+}
+
+.row {
+    margin: 0;
+}
+
+.comtainer {
+    padding: 70px 0;
+}
+
+p, li{ 
+    color: gray;
+    font-size: 14px;
+}
+
+/* barra de navegação*/
+header, .navbar {
+    background-color: #353d41;
+}
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo {
+    width: 75px;
+}
+
+.navbar-brand {
+    padding: 0;
+    color: white;
+}
+
+.navbar-brand:hover{
+    color: white;
+}
+
+#navbar-links a {
+    color: white;
+}
+
+.navbar-expand .navbar-nav .nav-link{
+    padding: 1rem .8rem; 
+
+}
